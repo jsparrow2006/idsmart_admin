@@ -1,0 +1,10 @@
+.customScrollBar .p-scrollpanel-bar {
+    width: 7px;
+    background-color: #78d96d;
+    opacity: 1;
+    transition: background-color .3s;
+}
+
+.customScrollBar .p-scrollpanel-bar:hover {
+    background-color: #30b82e;
+}

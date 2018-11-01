@@ -1,0 +1,31 @@
+.itemWraper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    height: 50px;
+    margin: 4px;
+    margin-left: 2px;
+    border-width: 1px;
+    box-shadow: 0 0 3px #AAAAAA;
+}
+
+.itemWraper .itemIcon{
+    color: #f0f0f0;
+    font-size: 20px;
+}
+
+.itemWraper .itemIcon:hover{
+    color: #78d96d;
+}
+
+.itemWraper .itemName{
+    margin: 5px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 15px;
+}
+
+.itemWraper:hover{
+    background-color: rgba(142, 249, 131, 0.25);
+}

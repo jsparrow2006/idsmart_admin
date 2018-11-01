@@ -1,0 +1,32 @@
+.mainMenu{
+    -webkit-app-region: drag;
+    background-color: #089d10;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.mainMenu .systemButton{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mainMenu .p-button-rounded{
+    -webkit-app-region: no-drag;
+    margin: 3px;
+}
+
+.mainMenu .settings{
+    margin-right: 15px!important;
+}
+
+.mainMenu .logo{
+    color: azure;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+}
+
+.mainMenu .pi{
+    font-size: 22px!important;
+}
