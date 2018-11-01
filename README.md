@@ -1,4 +1,4 @@
-# Quick start Electron + ReactJS + Redux
+# Application for Administration IDSmart
 
 ## Scripts
 ```npm start``` for start app dev  
