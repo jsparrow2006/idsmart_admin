@@ -8,3 +8,13 @@
 .customScrollBar .p-scrollpanel-bar:hover {
     background-color: #30b82e;
 }
+
+.p-float-label{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p-float-label .p-inputtext{
+    width: 100%;
+}

@@ -10,7 +10,7 @@ import LeftBar from '../../components/leftBar/LeftBar';
 class Main extends Component {
 
     componentDidMount() {
-
+        window.localStorage.setItem('qqq', 'Hello');
     }
 
 
@@ -23,6 +23,7 @@ class Main extends Component {
                     </Col>
                     <Col md={9}>
                         <Test/>
+                        {window.localStorage.getItem('qqq')}
                     </Col>
                 </Row>
             </Grid>
